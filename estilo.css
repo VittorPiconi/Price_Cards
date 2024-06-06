@@ -19,10 +19,11 @@ header{
     margin-left: 20px;
     font-size: 15px;
     letter-spacing: 1.5px;
+    align-items: center;
 }
 .ul_top{
     display: flex;
-    margin-right: 20px;
+    gap: 3px;
 }
 .list_top{
     margin: 0 15px 0 15px;
@@ -38,12 +39,12 @@ a:hover{
     text-decoration: underline;
 }
 .list_top_planos{
-    margin: -4px 15px 0 15px;
-    list-style: none;
+    
+    
     font-size: 12px;
     background-color: rgb(200, 255, 47);
     color: black;
-    padding: 5px 10px 20px 10px;
+    padding: 7px 10px 7px 10px;
     border-radius: 3px;
 }
 .list_top_planos:hover{
@@ -77,7 +78,7 @@ h2{
 .div_preco{
     display: flex;
     align-items: center;
-    margin-bottom: -20px;
+    margin: 10px 0 -10px 0;
 }
 .preco{
     font-size: 22px;
@@ -95,6 +96,9 @@ li{
     margin-left: -28px;
     font-size: 10px;
     margin-bottom: 14px;
+}
+li::marker{
+    color: rgb(200, 255, 47);
 }
 .assine{
     justify-content: flex-end;
